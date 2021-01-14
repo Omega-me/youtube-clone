@@ -1,0 +1,29 @@
+.videoCard {
+  width: 320px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+@media all and (max-width: 560px) {
+  .videoCard {
+    width: 280px;
+  }
+}
+
+.videoCard .videoCard__infoContainer {
+  padding: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.videoCard .videoCard__infoContainer .videoCard__info {
+  margin-left: 20px;
+}
+
+.videoCard .videoCard__infoContainer .videoCard__info p {
+  font-size: 0.9rem;
+  color: grey;
+}
+/*# sourceMappingURL=VideoCard.css.map */

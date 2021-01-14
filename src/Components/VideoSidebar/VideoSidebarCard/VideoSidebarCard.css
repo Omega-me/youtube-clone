@@ -1,0 +1,17 @@
+.videoSidebarCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.videoSidebarCard__info {
+  margin-left: 10px;
+}
+
+.videoSidebarCard__info p {
+  color: grey;
+  font-size: 0.75rem;
+}
+/*# sourceMappingURL=VideoSidebarCard.css.map */

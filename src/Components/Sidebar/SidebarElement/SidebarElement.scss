@@ -1,0 +1,33 @@
+.sidebarElement {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-right: 15px;
+  &:hover {
+    background-color: rgb(233, 233, 233);
+  }
+  @media all and (max-width: 768px) {
+    .sidebarElement--responsive {
+      display: none;
+    }
+  }
+  h5 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none solid rgb(3, 3, 3);
+    white-space: nowrap;
+    word-spacing: 0;
+    color: #686868;
+  }
+}
+
+.active {
+  background-color: lightgray;
+  h5 {
+    color: #3f3f3f;
+  }
+  @media all and (max-width: 768px) {
+    background-color: white;
+  }
+}

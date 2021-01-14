@@ -1,0 +1,109 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100 !important;
+  background-color: white;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  // position: sticky;
+  // top: 0;
+  border-bottom: 1px solid lightgray;
+  &__left {
+    display: flex;
+    img {
+      width: 100px;
+      object-fit: contain;
+    }
+  }
+  &__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    @media all and (max-width: 768px) {
+      display: none;
+    }
+    input {
+      flex: 1;
+      border: none;
+      padding: 7px;
+      font-size: 1.2rem;
+      border: 1px solid lightgray;
+      &:focus {
+        outline-color: #062caa;
+      }
+    }
+    .header__inputButton {
+      width: 70px;
+      color: grey;
+      border: none;
+      border-radius: none;
+      border-top: 1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      background-color: #e7e7e7;
+      outline: none;
+      padding: 5px;
+      cursor: pointer;
+      border-bottom-right-radius: 3px;
+      border-top-right-radius: 3px;
+      &:active {
+        color: rgb(73, 73, 73);
+        border: 1px solid lightgray;
+        background-color: lightgray;
+      }
+    }
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    @media all and (min-width: 768px) {
+      .header--responsiveSearch {
+        display: none;
+      }
+    }
+  }
+}
+.header--responsive {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+  border-bottom: 1px solid lightgray;
+  .header__input--responsive {
+    display: flex;
+    flex: 1;
+    input {
+      flex: 1;
+      padding: 10px;
+      border: none;
+      border: 1px solid lightgray;
+      font-size: 1.2rem;
+      &:focus {
+        outline-color: #062caa;
+      }
+    }
+    button {
+      width: 80px;
+      border: none;
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      border-bottom: 1px solid lightgray;
+      border-right: 1px solid lightgray;
+      border-top: 1px solid lightgray;
+      outline: none;
+      cursor: pointer;
+      color: rgb(148, 148, 148);
+      &:active {
+        color: rgb(73, 73, 73);
+        border: 1px solid lightgray;
+        background-color: lightgray;
+      }
+    }
+  }
+}

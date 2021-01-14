@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,cAAc,CAAC;EACb,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,IAAI;EACb,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,gBAAgB,EAAE,OAAO;CAC1B",
+    "sources": [
+        "VidoContainer.scss"
+    ],
+    "names": [],
+    "file": "VidoContainer.css"
+}

@@ -1,0 +1,20 @@
+.videoCard {
+  width: 320px;
+  margin: 10px;
+  cursor: pointer;
+  @media all and (max-width: 560px) {
+    width: 280px;
+  }
+  .videoCard__infoContainer {
+    padding: 7px;
+    display: flex;
+    margin-top: 10px;
+    .videoCard__info {
+      margin-left: 20px;
+      p {
+        font-size: 0.9rem;
+        color: grey;
+      }
+    }
+  }
+}

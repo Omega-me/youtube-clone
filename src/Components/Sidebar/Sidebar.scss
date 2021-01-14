@@ -1,0 +1,25 @@
+.sidebar {
+  padding: 15px 0;
+  flex: 0;
+  cursor: pointer;
+  top: 200px;
+  margin-right: 20px;
+  .hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-color: rgba($color: #d3d3d3, $alpha: 0.5);
+    margin: 15px 0;
+    @media all and (max-width: 768px) {
+      width: 50%;
+    }
+  }
+  .icon {
+    color: #686868;
+    margin-right: 20px;
+  }
+  .icon--active {
+    color: red;
+  }
+}
